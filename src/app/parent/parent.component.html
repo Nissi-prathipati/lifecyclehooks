@@ -1,0 +1,5 @@
+<p>parent works!</p>
+
+<button (click)="tchild()">Parent</button>
+<input type="text" [(ngModel)]="ChannelName()"></input>
+<app-child *ngIf="Ischild" [ChannelName]="ChannelName"></app-child>
